@@ -100,7 +100,7 @@ C-Level 执行层
 
 ### 1. 克隆并打开
 ```bash
-git clone <repo-url> creater-agent
+git clone https://github.com/fifteenbao/IPD_agents.git creater-agent
 cd creater-agent
 ```
 
