@@ -1,4 +1,4 @@
-# creater-agent — 智能硬件 IPD 多 Agent 协作体系
+# IPD_agents — 智能硬件 IPD 多 Agent 协作体系
 
 > 把华为 IPD（集成产品开发）流程与现代企业治理结构融合，在AI时代背景下，专为智能硬件产品**从立项到量产**的全周期协作设计。
 
@@ -100,8 +100,8 @@ C-Level 执行层
 
 ### 1. 克隆并打开
 ```bash
-git clone https://github.com/fifteenbao/IPD_agents.git creater-agent
-cd creater-agent
+git clone https://github.com/fifteenbao/IPD_agents.git IPD_agents
+cd IPD_agents
 ```
 
 ### 2. 用 Claude Code 进入此目录
@@ -126,7 +126,7 @@ CEO 会先制定执行计划，按角色分发给 C-Level，最终经 COO 审核
 ## 目录结构
 
 ```
-creater-agent/
+IPD_agents/
 ├── README.md                    ← 本文件
 ├── .gitignore
 ├── .claude/
@@ -166,7 +166,7 @@ creater-agent/
 
 本体系的**三层架构**（agent / skill / command）受 [phuryn/pm-skills](https://github.com/phuryn/pm-skills) 启发，但聚焦智能硬件 IPD 而非通用 SaaS PM：
 
-| 维度 | phuryn/pm-skills | creater-agent |
+| 维度 | phuryn/pm-skills | IPD_agents |
 |------|------------------|---------------|
 | 适用场景 | 数字产品/SaaS PM 通用 | 智能硬件 IPD 全周期 |
 | 流程脊梁 | 平铺的 PM 域（discovery / execution / GTM） | IPD 阶段轴（CDCP→PDCP→TR1-6→GA） |
